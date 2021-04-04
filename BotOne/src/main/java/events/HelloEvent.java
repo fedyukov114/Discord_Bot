@@ -13,7 +13,7 @@ public class HelloEvent extends ListenerAdapter {
 
         // List of words, that must be deleted
         // Нужно доработать: увеличить список бан-слов
-        String[] MustDeleteWords = {"Лох", "Лoх", "Лox", "Тупица", "Тyпица", "Тупицa", "Тyпицa", "Блядина", "Придурок"};
+        String[] MustDeleteWords = {"Дурак"};
 
         // Break the sentence into words. Write all words to array. Then we look for this word in our
         // MustDeleteWords-list.
