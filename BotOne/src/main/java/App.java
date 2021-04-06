@@ -42,7 +42,8 @@ public class App extends ListenerAdapter {
     }
 } */
 
-import events.HelloEvent;
+import events.NewPerson;
+import events.PenaltyEvent;
 import events.CommandsEvent;
 import net.dv8tion.jda.api.JDABuilder;
 import net.dv8tion.jda.api.entities.Activity;
@@ -54,10 +55,10 @@ import javax.security.auth.login.LoginException;
 public class App extends ListenerAdapter{
     public static void main(String[] args) throws LoginException {
         JDABuilder.createLight("ODI2ODA5NDc5NDQxOTQwNTIw.YGR4VQ.5nYosCmVvg3ER6Ie6xBPN5bBIZo", GatewayIntent.GUILD_MESSAGES, GatewayIntent.DIRECT_MESSAGES)
-                .addEventListeners(new App()).setActivity(Activity.playing("Удаляю слова: лох, тупица, дурак и блядина :)"))
-                .addEventListeners(new HelloEvent())
+                .addEventListeners(new App()).setActivity(Activity.playing("Удаляю слова: лох, тупица, дурак :)"))
+                .addEventListeners(new PenaltyEvent())
                 .addEventListeners(new CommandsEvent())
-               // .addEventListeners(new NewPerson())
+                .addEventListeners(new NewPerson())
                 .build();
     }
 }
