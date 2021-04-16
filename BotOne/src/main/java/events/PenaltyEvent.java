@@ -14,10 +14,9 @@ public class PenaltyEvent extends ListenerAdapter {
             event.getChannel().sendMessage("Ну здраствуй, друг").submit();
         }
 
+
         String messageByMember = event.getMessage().getContentDisplay();
         String regex = ".*[дД][уУyY][рРpP].*";
-                /*"|.*[бБ][лЛ][яЯ].*|.*[пП][иИ][сСзЗ].*|.*[лЛ][оОoO][хХxXшШ].*|.*[пП][иИiIіІ][дД][аАaAоОoO].*|" +
-                ".*[хХxX][уУyY][еЕeEйЙиИiIіІ].*|.*[жЖjJ][оОoO][пП].*";*/
         Pattern pattern = Pattern.compile(regex, Pattern.DOTALL);
         Matcher matcher = pattern.matcher(messageByMember);
         boolean result = matcher.matches();
@@ -25,5 +24,6 @@ public class PenaltyEvent extends ListenerAdapter {
             String MessageId = event.getChannel().getLatestMessageId();
             event.getChannel().deleteMessageById(MessageId).submit();
         }
+
     }
 }
