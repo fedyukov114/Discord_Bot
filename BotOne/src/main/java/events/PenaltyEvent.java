@@ -14,8 +14,10 @@ public class PenaltyEvent extends ListenerAdapter {
             event.getChannel().sendMessage("Ну здраствуй, друг").submit();
         }
 
-
         String messageByMember = event.getMessage().getContentDisplay();
+        messageByMember = messageByMember.replaceAll("\\s+","");
+        System.out.println(messageByMember);
+
         String regex = ".*[дД][уУyY][рРpP].*";
         Pattern pattern = Pattern.compile(regex, Pattern.DOTALL);
         Matcher matcher = pattern.matcher(messageByMember);
