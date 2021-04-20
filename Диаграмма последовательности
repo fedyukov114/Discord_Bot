@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-20T17:21:05.950Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36 OPR/75.0.3969.171 (Edition Yx)" etag="Y7r4Lh3f0jF4fV-D7fAR" version="14.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-20T17:25:37.576Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36 OPR/75.0.3969.171 (Edition Yx)" etag="_KTX2KINgEPqYX277uPl" version="14.6.3" type="github">
   <diagram id="DzRfRAGiGpJVXJaSbUnv" name="Page-1">
     <mxGraphModel dx="1662" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11,16 +11,25 @@
           <mxGeometry x="180" y="30" width="100" height="490" as="geometry" />
         </mxCell>
         <mxCell id="Zi7Fr9K-15uuJ7ez2mOc-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="Zi7Fr9K-15uuJ7ez2mOc-3">
-          <mxGeometry x="45" y="110" width="10" height="170" as="geometry" />
+          <mxGeometry x="45" y="110" width="10" height="110" as="geometry" />
         </mxCell>
         <mxCell id="Zi7Fr9K-15uuJ7ez2mOc-4" value="Класс Commands.java" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="320" y="30" width="100" height="490" as="geometry" />
         </mxCell>
+        <mxCell id="Zi7Fr9K-15uuJ7ez2mOc-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="Zi7Fr9K-15uuJ7ez2mOc-4">
+          <mxGeometry x="45" y="110" width="10" height="170" as="geometry" />
+        </mxCell>
         <mxCell id="Zi7Fr9K-15uuJ7ez2mOc-5" value="Класс Penalty.java" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="460" y="30" width="100" height="490" as="geometry" />
         </mxCell>
+        <mxCell id="Zi7Fr9K-15uuJ7ez2mOc-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="Zi7Fr9K-15uuJ7ez2mOc-5">
+          <mxGeometry x="45" y="110" width="10" height="170" as="geometry" />
+        </mxCell>
         <mxCell id="Zi7Fr9K-15uuJ7ez2mOc-6" value="Класс Clear.java" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="600" y="30" width="100" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="Zi7Fr9K-15uuJ7ez2mOc-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="Zi7Fr9K-15uuJ7ez2mOc-6">
+          <mxGeometry x="45" y="110" width="10" height="170" as="geometry" />
         </mxCell>
         <mxCell id="Zi7Fr9K-15uuJ7ez2mOc-10" value="" style="endArrow=none;dashed=1;html=1;startArrow=none;" edge="1" parent="1" source="Zi7Fr9K-15uuJ7ez2mOc-11">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -35,6 +44,39 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="64.5" y="520" as="sourcePoint" />
             <mxPoint x="64.5" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zi7Fr9K-15uuJ7ez2mOc-17" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.127;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Zi7Fr9K-15uuJ7ez2mOc-11" target="Zi7Fr9K-15uuJ7ez2mOc-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="360" as="sourcePoint" />
+            <mxPoint x="440" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zi7Fr9K-15uuJ7ez2mOc-18" value="Попадание на сервер" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="160" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Zi7Fr9K-15uuJ7ez2mOc-19" value="Статус активности бота" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=1.2;entryY=0.216;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Zi7Fr9K-15uuJ7ez2mOc-3" target="Zi7Fr9K-15uuJ7ez2mOc-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="280" as="sourcePoint" />
+            <mxPoint x="110" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zi7Fr9K-15uuJ7ez2mOc-21" value="Запрос доступных бот-команд" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" target="Zi7Fr9K-15uuJ7ez2mOc-4">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="70" y="274.5" as="sourcePoint" />
+            <mxPoint x="150" y="274.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zi7Fr9K-15uuJ7ez2mOc-22" value="Получение списка доступных команд" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1" target="Zi7Fr9K-15uuJ7ez2mOc-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="357.5" y="300.08" as="sourcePoint" />
+            <mxPoint x="200" y="299.99999999999994" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="298" y="300.08" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
