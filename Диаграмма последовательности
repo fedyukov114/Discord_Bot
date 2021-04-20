@@ -1,1 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2021-04-20T17:17:35.803Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36 OPR/75.0.3969.171 (Edition Yx)" version="14.6.3" etag="rBS22O6pRbnG3Z7xA8WV" type="github"><diagram id="DzRfRAGiGpJVXJaSbUnv">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-20T17:21:05.950Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36 OPR/75.0.3969.171 (Edition Yx)" etag="Y7r4Lh3f0jF4fV-D7fAR" version="14.6.3" type="github">
+  <diagram id="DzRfRAGiGpJVXJaSbUnv" name="Page-1">
+    <mxGraphModel dx="1662" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Zi7Fr9K-15uuJ7ez2mOc-1" value="Пользователь&lt;br&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="30" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zi7Fr9K-15uuJ7ez2mOc-3" value="Класс App.java" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="30" width="100" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="Zi7Fr9K-15uuJ7ez2mOc-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="Zi7Fr9K-15uuJ7ez2mOc-3">
+          <mxGeometry x="45" y="110" width="10" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Zi7Fr9K-15uuJ7ez2mOc-4" value="Класс Commands.java" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="30" width="100" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="Zi7Fr9K-15uuJ7ez2mOc-5" value="Класс Penalty.java" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="30" width="100" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="Zi7Fr9K-15uuJ7ez2mOc-6" value="Класс Clear.java" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="30" width="100" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="Zi7Fr9K-15uuJ7ez2mOc-10" value="" style="endArrow=none;dashed=1;html=1;startArrow=none;" edge="1" parent="1" source="Zi7Fr9K-15uuJ7ez2mOc-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="64.5" y="520" as="sourcePoint" />
+            <mxPoint x="64.5" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zi7Fr9K-15uuJ7ez2mOc-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="60" y="140" width="10" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="Zi7Fr9K-15uuJ7ez2mOc-12" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1" target="Zi7Fr9K-15uuJ7ez2mOc-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="64.5" y="520" as="sourcePoint" />
+            <mxPoint x="64.5" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
