@@ -11,8 +11,10 @@ public class PenaltyEvent extends ListenerAdapter {
     @Override
     public void onMessageReceived(@NotNull MessageReceivedEvent event) {
         if (event.getMessage().getContentDisplay().equals("Привет бот")) {
-            event.getChannel().sendMessage("Ну здраствуй, друг").submit();
+            Singleton singleton = Singleton.getInstance("Ну здраствуй, друг");
+            event.getChannel().sendMessage(singleton.value).submit();
         }
+
 
         String messageByMember = event.getMessage().getContentDisplay();
         messageByMember = messageByMember.replaceAll("\\s+","");
