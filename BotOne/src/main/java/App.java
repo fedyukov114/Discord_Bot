@@ -8,7 +8,7 @@ import javax.security.auth.login.LoginException;
 
 public class App extends ListenerAdapter{
     public static void main(String[] args) throws LoginException {
-        JDABuilder.createLight("ODI2ODA5NDc5NDQxOTQwNTIw.YGR4VQ.byeHtNbyGPCAUhI0hNMNkpiJLZs", GatewayIntent.GUILD_MESSAGES, GatewayIntent.DIRECT_MESSAGES)
+        JDABuilder.createLight("***", GatewayIntent.GUILD_MESSAGES, GatewayIntent.DIRECT_MESSAGES)
                 .addEventListeners(new App()).setActivity(Activity.watching("Удаляю плохие слова :)"))
                 .addEventListeners(new PenaltyEvent())
                 .addEventListeners(new CommandsEvent())
