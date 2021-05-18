@@ -1,4 +1,4 @@
-h1 THIS IS DICORD BOT POWERED BY JDA(JAVA DEVELOPER API)
+*THIS IS DICORD BOT POWERED BY JDA(JAVA DEVELOPER API)
 
 This bot can delete multiple messages in chat.Also he can automatically delete bad words.
 
